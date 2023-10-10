@@ -1,6 +1,6 @@
 FROM tomcat:latest
 
-ADD target/hw2-*.war /usr/local/tomcat/webapps/
+ADD target/hw2.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
